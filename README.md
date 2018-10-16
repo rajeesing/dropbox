@@ -26,7 +26,7 @@ Copy and paste below functions to your controller wherever you wanted to use:
                 try
                 {
                     string newFileName = file.FileName; //Change the file name if you need to
-                    string filePath = Path.Combine(ConfigurationManager.AppSettings["DropboxUploadRootFolder"]);
+                    string filePath = ConfigurationManager.AppSettings["DropboxUploadRootFolder"];
                     await new DropboxHandler().Upload(filePath,newFileName, ReadData(file.InputStream));
                     
                 }
