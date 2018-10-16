@@ -21,7 +21,7 @@ Copy and paste below functions to your controller wherever you wanted to use:
             {
                 try
                 {
-                    string newFileName = file.FileName; //Change the file name if you need to;
+                    string newFileName = file.FileName; //Change the file name if you need to
                     string filePath = Path.Combine(ConfigurationManager.AppSettings["DropboxUploadRootFolder"]);
                     await new DropboxHandler().Upload(filePath,newFileName, ReadData(file.InputStream));
                     
@@ -58,7 +58,7 @@ Copy and paste below functions to your controller wherever you wanted to use:
 	/// <summary>
         /// Download individual files with their original name
         /// </summary>
-        /// <param name="id">Uploaded Document Id</param>
+        /// <param name="fileName">Name of the file</param>
         [HttpGet]
         public ActionResult Download(string fileName)
         {
