@@ -16,8 +16,6 @@ namespace DropboxIntegrationSample
         public async Task Authenticate()
         {
             var full = await dc.Users.GetCurrentAccountAsync();
-            
-           // await ListRootFolder(dc);
         }
 
         public async Task Upload(string folder, string file, byte[] content)
