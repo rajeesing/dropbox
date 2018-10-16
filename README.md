@@ -33,8 +33,6 @@ Copy and paste below functions to your controller wherever you wanted to use:
                     //TODO: Log your exception
                 }
             }
-
-            //return Json("All files have been successfully stored.");
     }
 
         /// <summary>
@@ -57,7 +55,7 @@ Copy and paste below functions to your controller wherever you wanted to use:
         }
 ### Download
 
-	    /// <summary>
+	/// <summary>
         /// Download individual files with their original name
         /// </summary>
         /// <param name="id">Uploaded Document Id</param>
