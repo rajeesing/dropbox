@@ -1,6 +1,7 @@
 # Dropbox Integration
 
-## Search for the *Dropbox.Api* on https://www.nuget.org and install to your project or run following command in your package manager console.
+## Install nuget package
+Search for the *Dropbox.Api* on https://www.nuget.org and install to your project using "Manage NuGet Packages..." window or run following command in your package manager console.
 > Install-Package Dropbox.Api
 
 ## Add following key to appSettings in Web.Config
