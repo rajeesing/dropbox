@@ -7,7 +7,7 @@
 > How to obtain dropbox token? Follow this link: [http://99rabbits.com/get-dropbox-access-token/](http://99rabbits.com/get-dropbox-access-token/) 
 
 ## Add helper class
-> Refer: DropboxHandler.cs
+> Refer: DropBoxHandler.cs
 
 ## Create following functions in your controller 
 Copy and paste below functions to your controller wherever you wanted to use:
